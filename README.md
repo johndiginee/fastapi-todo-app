@@ -1,1 +1,7 @@
 # A Simple CRUD API with FastAPI
+
+API Docs
+<img src="https://res.cloudinary.com/dkezlmzn1/image/upload/v1684239705/Screenshot_2023-05-16_at_1.18.27_PM_ysibeh.png"/>
+
+Jinji Template
+<img src="https://res.cloudinary.com/dkezlmzn1/image/upload/v1684239704/Screenshot_2023-05-16_at_1.18.57_PM_cbdbd7.png"/>
