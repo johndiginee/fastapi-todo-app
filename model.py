@@ -1,9 +1,9 @@
 from pydantic import BaseModel
 from typing import List, Optional
-
+from fastapi import Form
 
 class Todo(BaseModel):
-    id: int
+    id: Optional[int]
     item: str
 
     @classmethod
@@ -18,8 +18,8 @@ class Todo(BaseModel):
             "example": {
                 "id": 1,
                 "item": "Example schema!"
-                                 }
             }
+        }
 
 class TodoItem(BaseModel):
     item: str
@@ -28,8 +28,8 @@ class TodoItem(BaseModel):
         schema_extra = {
             "example": {
                 "item": "Read the next chapter of the book"
-                                 }
             }
+        }
 
 class TodoItems(BaseModel):
     todos: List[TodoItem]
